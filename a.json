@@ -1,0 +1,26 @@
+{
+  "basic": [
+    {
+      "type": "input",
+      "label": "设置圆角大小",
+      "key": "radius"
+    },
+    {
+      "type": "ArrayList",
+      "label": "图片配置",
+      "key": "imgArr",
+      "maxLength": 8,
+      "items": [
+        {
+          "type": "upload",
+          "key": "imgsrc"
+        },
+        {
+          "type": "input",
+          "label": "跳转链接",
+          "key": "linkurl"
+        }
+      ]
+    }
+  ]
+}
